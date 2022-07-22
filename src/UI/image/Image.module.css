@@ -1,0 +1,14 @@
+.logo {
+    margin-left: auto;
+    margin-bottom: 0px;
+    margin-right: auto;
+    margin-top: 0px;
+    padding-right: 24px;
+    padding-left: 24px;
+    flex-direction: row;
+    font-size: 16px;
+    justify-content: center;
+    flex-grow: 1;
+    align-items: center;
+    display: flex;
+}
