@@ -1,10 +1,22 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import projekts from './Projects.json';
+
 const isMobile = (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) ? true : false
 
 function MainContent(props) {
     // const isMobile = window.screen.width < 1200
-
+    const itemProject = projekts.map(projekt=>
+        (projekt.link === "/") 
+        ? <li class="projects_item"><Link to={projekt.link}><span class="project_text">{projekt.name}</span><span class="project_text">{projekt.description}</span></Link></li> 
+        : <li class="projects_item"><a href={projekt.link}><span class="project_text">{projekt.name}</span><span class="project_text">{projekt.description}</span></a></li>
+        
+        // if (projekt.link === "/") {
+        //    <Link to={projekt.link}><span class="project_text">{projekt.name}</span>.........<span class="project_text">{projekt.description}</span></Link>
+        // } else {
+        //     <a href={projekt.link}><span class="project_text">{projekt.name}</span>.........<span class="project_text">{projekt.description}</span></a> 
+        // }
+        )
     return (
         <div class={isMobile ? 'main_contentMobile' : "main_content"} id="main_content">
            <div class="about">
@@ -20,8 +32,9 @@ function MainContent(props) {
            <div class="projects">
                 <h2 class="title">Projects</h2>
                 <ol class="list">
-                    <li class="projects_item"><a href="https://granary.systems/"><span class="project_text">https://granary.systems/</span></a>.........  [<span class="project_text"> 1С </span>]</li>
-                    <li class="projects_item"><Link to="/Main"><span class="project_text">Law You World</span></Link>........................[<span class="project_text">HTML5, CSS, JS, React.js </span>]</li>
+                    {/* <li class="projects_item"></li>
+                    <li class="projects_item"><Link to="/Main"><span class="project_text">Law You World</span></Link>........................[<span class="project_text"> HTML5, CSS, JS, React.js </span>]</li> */}
+                    {itemProject}
                 </ol>
            </div>
            <div class="works">

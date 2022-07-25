@@ -1,9 +1,11 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Blog from '../blog/Blog';
 import BlogsJson from '../API/Blogs';
 import HeadingLine from '../UI/HeadingLine/HeadingLine';
+import axios from 'axios';
 
 function Practices(props) {
+
     const items = BlogsJson.map(blog => 
         <Blog 
             blog={blog}

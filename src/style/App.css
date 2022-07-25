@@ -1,4 +1,4 @@
-.App .main {
+.App, .main, .ourServices {
     margin-left: auto;
     margin-bottom: 0px;
     margin-right: auto;
@@ -12,11 +12,14 @@
     align-items: center;
     display: block;
     background-color: transparent;
+    font-family: 'Playfair Display', Georgia, serif;
 }
 
 body {
     display: block;
     margin: 0px;
+    font-family: 'Playfair Display', Georgia, serif;
+
 }
 .header {
     /* height: 100%; */
@@ -67,7 +70,7 @@ body {
     margin-right: 0px;
     margin-left: 0px;
     /* position: relative; */
-    font-family: 'Open Sans', arial, sans-serif;
+    /* font-family: 'Open Sans', arial, sans-serif; */
     text-transform: none;
     letter-spacing: normal;
     box-sizing: inherit;
@@ -93,7 +96,7 @@ body {
     color: rgb(87, 87, 87);
     display: inline-block;
     /* position: relative; */
-    font-family: 'Open Sans', arial, sans-serif;
+    /* font-family: 'Open Sans', arial, sans-serif; */
     text-transform: none;
     letter-spacing: normal;
     box-sizing: inherit;
@@ -158,7 +161,7 @@ body {
     font-weight: 400;
     color: #ebaa40;
     overflow-wrap: break-word;
-    font-family: 'Playfair Display', Georgia, serif;
+    /* font-family: 'Playfair Display', Georgia, serif; */
     margin-top: 0px;
     margin-right: 0px;
     margin-left: 0px;
@@ -205,7 +208,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     display: flex;
-    font-family: 'Open Sans', arial, sans-serif;
+    /* font-family: 'Open Sans', arial, sans-serif; */
     width: 100%;
     text-transform: none;
     letter-spacing: normal;
@@ -285,7 +288,7 @@ video {
     padding-left: 24px;
     margin-right: auto;
     margin-left: auto;
-    font-family: 'Open Sans', arial, sans-serif;
+    /* font-family: 'Open Sans', arial, sans-serif; */
     text-transform: none;
     letter-spacing: normal;
     box-sizing: inherit;
@@ -305,7 +308,6 @@ video {
     line-height: 1.4;
     font-weight: 400;
     color: rgb(47, 65, 97);
-    font-family: 'Playfair Display', Georgia, serif;
     margin-top: 14px;
     margin-right: 0px;
     margin-left: 0px;
@@ -314,7 +316,7 @@ video {
     letter-spacing: normal;
     box-sizing: inherit;
     overflow-wrap: break-word;
-    font-family: 'Playfair Display', Georgia, serif;
+    /* font-family: 'Playfair Display', Georgia, serif; */
     /* margin-block-start: 0.83em;
     margin-block-end: 0.83em;
     margin-inline-start: 0px;
@@ -493,14 +495,14 @@ video {
     text-align: center;
     justify-content: center;
     display: flex;
-    font-family: 'Open Sans', arial, sans-serif;
+    /* font-family: 'Open Sans', arial, sans-serif; */
     text-transform: none;
     letter-spacing: normal;
 }
 
 .grideCell {
     max-width: 33.33333333333333%;
-    /* flex-basis: 33.33333333333333%; */
+    flex-basis: 33.33333333333333%;
     font-size: 16px;
     padding-bottom: 48px;
     /* padding-left: 24px; */
@@ -509,7 +511,7 @@ video {
     flex-shrink: 1;
     box-sizing: border-box;
     flex-grow: 1;
-    font-family: 'Open Sans', arial, sans-serif;
+    /* font-family: 'Open Sans', arial, sans-serif; */
     text-transform: none;
     letter-spacing: normal;
     text-align: center;
@@ -531,7 +533,7 @@ video {
     display: inline-block;
     margin-right: auto;
     margin-left: auto;
-    font-family: 'Open Sans', arial, sans-serif;
+    /* font-family: 'Open Sans', arial, sans-serif; */
     text-transform: none;
     letter-spacing: normal;
     box-sizing: inherit;
@@ -552,7 +554,7 @@ video {
     max-width: 100%;
     margin-right: auto;
     margin-left: auto;
-    font-family: 'Open Sans', arial, sans-serif;
+    /* font-family: 'Open Sans', arial, sans-serif; */
     text-transform: none;
     letter-spacing: normal;
     border: 0;
@@ -569,7 +571,7 @@ video {
     font-size: 16px;
     max-width: 100%;
     /* position: relative; */
-    font-family: 'Open Sans', arial, sans-serif;
+    /* font-family: 'Open Sans', arial, sans-serif; */
     width: 100%;
     text-transform: none;
     letter-spacing: normal;
@@ -592,7 +594,7 @@ video {
     overflow-wrap: break-word;
     margin-top: 0px;
     flex-grow: 1;
-    font-family: 'Open Sans', arial, sans-serif;
+    /* font-family: 'Open Sans', arial, sans-serif; */
     width: 100%;
     text-transform: none;
     letter-spacing: normal;
@@ -622,7 +624,7 @@ video {
     margin-top: 0px;
     margin-right: 0px;
     margin-left: 0px;
-    font-family: 'Open Sans', arial, sans-serif;
+    /* font-family: 'Open Sans', arial, sans-serif; */
     text-transform: none;
     letter-spacing: normal;
     box-sizing: inherit;
@@ -645,7 +647,7 @@ video {
     color: rgb(94, 94, 94);
     font-weight: 400;
     overflow-wrap: break-word;
-    font-family: 'Open Sans', arial, sans-serif;
+    /* font-family: 'Open Sans', arial, sans-serif; */
     text-transform: none;
     letter-spacing: normal;
     text-align: center;
@@ -677,7 +679,7 @@ video {
     padding-bottom: 56px;
     padding-top: 56px;
     background-color: transparent;
-    font-family: "Open Sans", arial, sans-serif;
+    /* font-family: "Open Sans", arial, sans-serif; */
     text-transform: none;
     letter-spacing: normal;
     box-sizing: inherit;
@@ -692,7 +694,7 @@ video {
 
 .heading {
     font-size: 38px;
-    font-family: "Playfair Display", Georgia, serif;
+    /* font-family: "Playfair Display", Georgia, serif; */
     text-align: center;
     margin-bottom: 56px;
     margin-right: 0px;
@@ -764,7 +766,7 @@ video {
     flex-direction: column;
     text-align: center;
     display: flex;
-    font-family: "Open Sans", arial, sans-serif;
+    /* font-family: "Open Sans", arial, sans-serif; */
     text-transform: none;
     letter-spacing: normal;
     /* box-sizing: inherit; */
@@ -791,7 +793,7 @@ video {
     text-shadow: none;
     width: auto;
     justify-content: center;
-    font-family: "Open Sans", arial, sans-serif;
+    /* font-family: "Open Sans", arial, sans-serif; */
     text-transform: none;
     letter-spacing: normal;
     box-sizing: inherit;
@@ -806,7 +808,7 @@ video {
 
 .divPostImg {
     font-size: 16px;
-    font-family: "Open Sans", arial, sans-serif;
+    /* font-family: "Open Sans", arial, sans-serif; */
     text-transform: none;
     letter-spacing: normal;
     box-sizing: inherit;
@@ -831,7 +833,7 @@ video {
     text-shadow: none;
     background-position: center center;
     font-size: 16px;
-    font-family: "Open Sans", arial, sans-serif;
+    /* font-family: "Open Sans", arial, sans-serif; */
     text-transform: none;
     letter-spacing: normal;
     box-sizing: inherit;
@@ -851,7 +853,7 @@ video {
 
 .widget {
     font-size: 16px;
-    font-family: 'Open Sans', arial, sans-serif;
+    /* font-family: 'Open Sans', arial, sans-serif; */
     background-color: rgb(255, 255, 255);
     text-transform: none;
     letter-spacing: normal;
@@ -867,7 +869,7 @@ video {
     font-size: 16px;
     padding-bottom: 0px;
     padding-top: 0px;
-    font-family: 'Open Sans', arial, sans-serif;
+    /* font-family: 'Open Sans', arial, sans-serif; */
     background-color: rgb(255, 255, 255);
     text-transform: none;
     letter-spacing: normal;
@@ -887,7 +889,7 @@ video {
     padding-left: 24px;
     margin-right: auto;
     margin-left: auto;
-    font-family: 'Open Sans', arial, sans-serif;
+    /* font-family: 'Open Sans', arial, sans-serif; */
     text-transform: none;
     letter-spacing: normal;
     box-sizing: inherit;
@@ -900,7 +902,7 @@ video {
 
 .group {
     font-size: 16px;
-    font-family: 'Open Sans', arial, sans-serif;
+    /* font-family: 'Open Sans', arial, sans-serif; */
     text-transform: none;
     letter-spacing: normal;
     box-sizing: inherit;
@@ -922,7 +924,7 @@ video {
     margin-top: 0px;
     margin-right: 0px;
     margin-left: 0px;
-    font-family: 'Open Sans', arial, sans-serif;
+    /* font-family: 'Open Sans', arial, sans-serif; */
     text-transform: none;
     letter-spacing: normal;
     box-sizing: inherit;
@@ -938,7 +940,7 @@ video {
 
 .elementWidget {
     font-size: 16px;
-    font-family: 'Open Sans', arial, sans-serif;
+    /* font-family: 'Open Sans', arial, sans-serif; */
     text-transform: none;
     letter-spacing: normal;
     box-sizing: inherit;
@@ -951,7 +953,7 @@ video {
 
 .weOnSocNetworks {
     font-size: 16px;
-    font-family: 'Open Sans', arial, sans-serif;
+    /* font-family: 'Open Sans', arial, sans-serif; */
     text-transform: none;
     letter-spacing: normal;
     -webkit-font-smoothing: antialiased;
@@ -972,7 +974,7 @@ video {
     padding-bottom: 0px;
     justify-content: center;
     /* display: flex; */
-    font-family: 'Open Sans', arial, sans-serif;
+    /* font-family: 'Open Sans', arial, sans-serif; */
     text-transform: none;
     letter-spacing: normal;
     box-sizing: inherit;
@@ -1006,7 +1008,7 @@ video {
     padding-top: 26px;
     margin-bottom: 26px;
     background-color: rgb(246, 246, 246);
-    font-family: 'Open Sans', arial, sans-serif;
+    /* font-family: 'Open Sans', arial, sans-serif; */
     text-transform: none;
     letter-spacing: normal;
     display: block;
@@ -1021,11 +1023,11 @@ video {
     font-size: 26px;
     margin-bottom: 12px;
     line-height: 1.5;
-    color: rgb(21, 21, 21);
+    color: rgb(82, 82, 82);
     font-weight: 700;
     overflow-wrap: break-word;
     margin-top: 0px;
-    font-family: 'Open Sans', arial, sans-serif;
+    /* font-family: 'Open Sans', arial, sans-serif; */
     text-transform: none;
     letter-spacing: normal;
     box-sizing: inherit;
@@ -1051,7 +1053,7 @@ video {
     display: flex;
     margin-right: 0px;
     margin-left: 0px;
-    font-family: 'Open Sans', arial, sans-serif;
+    /* font-family: 'Open Sans', arial, sans-serif; */
     text-transform: none;
     letter-spacing: normal;
     -webkit-font-smoothing: antialiased;
@@ -1075,7 +1077,7 @@ video {
     line-height: 1.5;
     font-weight: 400;
     overflow-wrap: break-word;
-    font-family: 'Open Sans', arial, sans-serif;
+    /* font-family: 'Open Sans', arial, sans-serif; */
     text-transform: none;
     letter-spacing: normal;
     -webkit-font-smoothing: antialiased;
@@ -1093,7 +1095,7 @@ video {
     font-weight: 400;
     overflow-wrap: break-word;
     margin-bottom: 0px;
-    font-family: 'Open Sans', arial, sans-serif;
+    /* font-family: 'Open Sans', arial, sans-serif; */
     text-transform: none;
     letter-spacing: normal;
     box-sizing: inherit;
@@ -1119,7 +1121,7 @@ video {
     margin-left: 0px;
     /* line-height: 1.25; */
     overflow-wrap: break-word;
-    font-family: "Open Sans", arial, sans-serif;
+    /* font-family: "Open Sans", arial, sans-serif; */
     text-transform: none;
     letter-spacing: normal;
     box-sizing: inherit;
@@ -1149,7 +1151,7 @@ video {
     background-color: rgb(255, 255, 255);
     font-weight: 400;
     width: 100%;
-    font-family: "Open Sans", arial, sans-serif;
+    /* font-family: "Open Sans", arial, sans-serif; */
     text-transform: none;
     letter-spacing: normal;
     vertical-align: middle;
@@ -1276,7 +1278,7 @@ video {
     font-weight: 400;
     margin-top: 0px;
     overflow-wrap: break-word;
-    font-family: "Open Sans", arial, sans-serif;
+    /* font-family: "Open Sans", arial, sans-serif; */
     text-transform: none;
     letter-spacing: normal;
     box-sizing: inherit;

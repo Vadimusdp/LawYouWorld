@@ -8,12 +8,12 @@ function Blog(props) {
         />
     )
     return (
-        <div>
+        <div className='conteiner'>
             <div className='block'>
                 <div className='conteiner'>
                     <h1 className='headingWidget'>{props.blog.title}</h1>
                     <h4 className='details'>{props.blog.details}</h4>
-                    <div className='gride'>
+                    <div className='contentCard'>
                         {items}
                     </div>
                     <hr/>

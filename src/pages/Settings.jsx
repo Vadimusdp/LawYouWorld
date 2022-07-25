@@ -5,7 +5,7 @@ import PostsSettings from '../components/PostsSettings';
 
 function Settings(props) {
     return (
-        <div>
+        <div className='main'>
            <PostsSettings/>
            <BlogsSettings/>
         </div>

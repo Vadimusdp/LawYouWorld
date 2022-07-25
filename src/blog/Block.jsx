@@ -11,7 +11,7 @@ function Block(props) {
     console.log(blogImg()[props.block.id-1]);
     const image = blogImg()[props.block.id-1]
     return (
-            <div className='grideCell'>
+            <div className='grideCell'style={{maxWidth: '460px'}}>
                 <div className='conteiner' style={{
                     backgroundImage: "url(" + image + ")",
                     backgroundPosition: 'center',
