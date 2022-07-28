@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b48ed980.css",
+    "main.js": "/static/js/main.21d6e690.js",
+    "static/media/Backmp4": "/static/media/Back36f8f3c01de2c9f6f713.36f8f3c01de2c9f6f713.mp4",
+    "static/media/LYW5-01.png": "/static/media/LYW5-01.94ac4752dfb59b5e37d4.png",
+    "static/media/Location_1.jpg": "/static/media/Location_1.3af8b0473f3b81984ceb.jpg",
+    "static/media/photo_2022-05-21_16-48-07.jpg": "/static/media/photo_2022-05-21_16-48-07.c22123cdfa2fede8b5a8.jpg",
+    "static/media/WorldForYouImg.jpg": "/static/media/WorldForYouImg.0ec7edbce6c6bef9ead3.jpg",
+    "static/media/OurServiceImg_1.jpg": "/static/media/OurServiceImg_1.155de4f3e971cfb1f4ba.jpg",
+    "static/media/OurServiceImg_4.jpg": "/static/media/OurServiceImg_4.24ae555469cc7d34df2a.jpg",
+    "static/media/OurServiceImg_5.jpg": "/static/media/OurServiceImg_5.3601d23d0127becda9e6.jpg",
+    "static/media/OurServiceImg_6.jpg": "/static/media/OurServiceImg_6.44cef5c1b326bd27c828.jpg",
+    "static/media/OurServiceImg_2.jpg": "/static/media/OurServiceImg_2.a65fcac8bb7faff98236.jpg",
+    "static/media/Post_3.jpg": "/static/media/Post_3.510624a6b1c462587584.jpg",
+    "static/media/Post_1.jpg": "/static/media/Post_1.44df5a4bf8f37c9f784b.jpg",
+    "static/media/OurServiceImg_3.jpg": "/static/media/OurServiceImg_3.dbf0832cbca8c5951988.jpg",
+    "static/media/StepAheadImg.jpg": "/static/media/StepAheadImg.85d0372a73ed38ace085.jpg",
+    "static/media/envelope-letter-mail.svg": "/static/media/envelope-letter-mail.a0041ecbe279be064d0519ca31c0d20c.svg",
+    "index.html": "/index.html",
+    "static/media/twitter-button-light.svg": "/static/media/twitter-button-light.70a8fab39269c23ec41afc7cb4ff62c1.svg",
+    "static/media/facebook-button-light.svg": "/static/media/facebook-button-light.88368604dd5963a4269a172d02793970.svg",
+    "main.b48ed980.css.map": "/static/css/main.b48ed980.css.map",
+    "main.21d6e690.js.map": "/static/js/main.21d6e690.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b48ed980.css",
+    "static/js/main.21d6e690.js"
+  ]
+}
