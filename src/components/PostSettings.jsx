@@ -5,10 +5,17 @@ import { Editor } from 'react-draft-wysiwyg';
 import "react-draft-wysiwyg/dist/react-draft-wysiwyg.css";
 import Image from '../UI/image/Image';
 import DisplayImage from '../hooks/DispleyImage';
+import savePost from '../hooks/savePost';
+
 
 function PostSettings(props) {
     const [item, setPost] = useState({id: 'post_'+props.post.id, date: props.post.date, title: props.post.title, body: props.post.body})
-    
+    const [mustSaved, setMustSaved] = useState(false)
+
+    // if (mustSaved) {
+    //     savePost({...item})
+    // }
+
     return (
         <div id={item.id} style={{display: 'inline-flex', width: '100%'}}>
             <div style={{width: '340px'}}>
@@ -44,9 +51,13 @@ function PostSettings(props) {
                         id={'body_'+item.id}/>
                 </label>
             </form>
+            {/* <div className='blockNeedHalp'>
+                <div className='needHalp'>
+                    <button className='needHalp' onClick={setMustSaved(true)}>Зберегти</button>
+                </div>
+            </div> */}
             <hr/>
             </div>
-           
         </div>
     );
 }

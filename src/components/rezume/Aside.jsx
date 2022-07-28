@@ -35,6 +35,7 @@ function Aside(props) {
                     <li class="sidebar_list"><span class="sidebar_list_text">JavaScript</span></li>
                     <li class="sidebar_list"><span class="sidebar_list_text">React.js</span></li>
                     <li class="sidebar_list"><span class="sidebar_list_text">Node.js</span></li>
+                    <li class="sidebar_list"><span class="sidebar_list_text">SQL</span></li>
                 </ul>
             </div>
             <div class="soft_skills">
